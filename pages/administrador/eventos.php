@@ -7,10 +7,10 @@
     <title>Eventos</title>
 </head>
 <body>
-<?php include("../templates/headeruser.php");?>
+<?php include("../../templates/headeruser.php");?>
 <div class="row">
     <div class="col-md-3">
-    <?php include("../templates/sidebaradmin.php"); ?>
+    <?php include("sidebaradmin.php"); ?>
     </div>
     <div class="col-md-9">
     <h5>Crear eventos</h5>
@@ -18,6 +18,6 @@
     </div>
 
 </div>
-<?php include("../templates/footer.php");?>
+<?php include("../../templates/footer.php");?>
 </body>
 </html>

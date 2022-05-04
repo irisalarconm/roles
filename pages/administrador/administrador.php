@@ -7,16 +7,16 @@
     <title>Administrador</title>
 </head>
 <body>
-<?php include("../templates/headeruser.php");?>
+<?php include("../../templates/headeruser.php");?>
 <div class="row">
     <div class="col-md-3"><!--SIDEBAR****************************************************************-->
-        <?php include("../templates/sidebaradmin.php"); ?>
+        <?php include("./sidebaradmin.php"); ?>
     </div>
 
     <div class="col-md-9"><!--CONTENIDO***********************************************************-->
         Contenido del administrador
     </div><!--END-CONTENIDO**********************************************************************-->
 </div>
-<?php include("../templates/footer.php");?>
+<?php include("../../templates/footer.php");?>
 </body>
 </html>

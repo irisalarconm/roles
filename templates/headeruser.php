@@ -11,7 +11,7 @@
     
 <div><!--HEADER****************************************************************-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="../index.php">OLA.KOM</a>
+        <a class="navbar-brand" href="../../index.php">OLA.KOM</a>
         <h6 class="ms-auto">Biemvenido</h6>
         
     </nav>
