@@ -5,14 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <title>Document</title>
+    <link href="../css/headeruser.css" rel="stylesheet" type="text/css">
+    <title>TecnoSchool</title>
 </head>
 <body>
     
 <div><!--HEADER****************************************************************-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="../../index.php">OLA.KOM</a>
-        <h6 class="ms-auto">Biemvenido</h6>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="../../index.php">TECNOSCHOOL</a>
+        <h6 class="ms-auto">Bievenido</h6>
         
     </nav>
 </div><!--END-HEADER***********************************************************-->
