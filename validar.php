@@ -19,10 +19,10 @@ if($filas['id_cargo']==2){ //DOCENTE
 header("location:pages/docente/docente.php");
 }else
 if($filas['id_cargo']==3){ //ACUDIENTE
-header("location:pages/acudiente.php");
+header("location:pages/acudiente/acudiente.php");
 }else
 if($filas['id_cargo']==4){ //ESTUDIANTE
-header("location:pages/estudiante.php");
+header("location:pages/estudiante/estudiante.php");
 }
 else{
     ?>

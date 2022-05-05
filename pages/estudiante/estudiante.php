@@ -7,39 +7,16 @@
     <title>Estudiante</title>
 </head>
 <body>
-<?php include("../templates/headeruser.php");?>
+<?php include("../../templates/headeruser.php");?>
 <div class="row">
     <div class="col-md-3"><!--SIDEBAR****************************************************************-->
-        <div class="d-flex flex-column flex-shrink-0 p-3 bg-light" style="width: 280px;">
-    <h3>ESTUDIANTE</h3>
-    <hr>
-    <ul class="nav nav-pills flex-column mb-auto">
-      <li class="nav-item">
-        <a href="#" class="nav-link active" aria-current="page">Horarios y actividades
-        </a>
-      </li>
-      <li>
-        <a href="#" class="nav-link link-dark">Material de apoyo
-        </a>
-      </li>
-      <li>
-        <a href="#" class="nav-link link-dark">Ver calificaciones
-        </a>
-      </li>
-      <li>
-        <a href="#" class="nav-link link-dark">Presentar trabajos
-        </a>
-      </li>
-    </ul>
-    <hr>
-  
-  </div>
-    </div><!--END-SIDERBAR***********************************************************************-->
+        <?php include("./sidebarestudiante.php"); ?>
+    </div>
 
     <div class="col-md-9"><!--CONTENIDO***********************************************************-->
-        <h1>contenido</h1>
+        Contenido del estudiante
     </div><!--END-CONTENIDO**********************************************************************-->
 </div>
-<?php include("../templates/footer.php");?>
+<?php include("../../templates/footer.php");?>
 </body>
 </html>
